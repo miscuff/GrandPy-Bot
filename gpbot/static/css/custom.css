@@ -1,0 +1,80 @@
+h1
+{
+    font-size: x-large;
+     color: black;
+     font-family: 'MyAmblePolice', Arial-Black, Impact;
+}
+
+.img_grandpy
+{
+  background-color: white; 
+  background-blend-mode: multiply;
+}
+
+#list_questions
+{
+  border: 1px solid grey;
+  height: 400px;
+  line-height: 40px;
+}
+
+#result
+{
+  border: 1px solid grey;
+  height: 400px;
+  line-height: 40px;
+}
+
+#history
+{
+  border: 1px solid grey;
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+
+@font-face {
+    font-family: 'MyAmblePolice';
+    src: url('font/amble/Amble-Regular.ttf');
+}
+
+header 
+{
+    height: 125px;
+    margin-bottom: 15px;
+}
+
+footer
+{
+  height: 100px;
+}
+
+body
+{
+    background-color: white; /* Le fond de la page sera noir */
+    color: black; /* Le texte de la page sera blanc */
+}
+
+
+/*.container {
+  padding: 15px 15px 15px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+*/
+
+header .row {
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+}
+
+footer .container {
+  padding-top: 40px;
+  line-height: 5px;
+  text-align: center;
+  border-top: 1px solid grey;
+}
+
+section .row{
+  margin-bottom: 10px
+}
