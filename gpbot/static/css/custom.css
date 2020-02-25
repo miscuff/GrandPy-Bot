@@ -80,3 +80,26 @@ section {
 section .form-control{
   margin-top: 15px; 
 }
+
+#map {
+    height: 300px;
+
+}
+
+
+#image_enfant {
+    display: none;
+}
+
+
+#image_papy #image_enfant {
+    opacity: 1;
+}
+
+.answer {
+    line-height: -4px;
+}
+
+.conversation{
+    border: 1px solid grey;
+}
