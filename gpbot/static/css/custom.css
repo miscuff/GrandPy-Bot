@@ -1,41 +1,37 @@
 
-.img_grandpy
-{
+.img_grandpy {
   background-color: white; 
-  background-blend-mode: multiply;
-}
-
-#result
-{
-  border: 1px solid grey;
-  height: 400px;
-  line-height: 40px;
-}
-
-#history
-{
-  border: 1px solid grey;
-  margin-bottom: 15px;
-  height: 40px;
 }
 
 @font-face {
     font-family: 'MyAmblePolice';
-    src: url("{{ url_for('static', filename='css/fonts/amble/Amble-Regular.ttf') }}");
+    src: url("/static/fonts/amble/Amble-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'TrueCrime';
+    src: url("/static/fonts/TrueCrimes/true-crimes.ttf");
 }
 
 h1
 {
-    font-size: x-large;
+    padding-top: 15px; 
+    font-size: xx-large;
      color: black;
-     font-family: 'MyAmblePolice', Arial-Black, Impact;
+     font-family: TrueCrime, MyAmblePolice, Arial-Black, Impact;
+}
+
+h2
+{
+    font-size: x-large;
+    color: black;
+    font-family: TrueCrime, MyAmblePolice, Arial-Black, Impact;
+    text-decoration: none;
 }
 
 header 
 {
-    height: 125px;
-    margin-bottom: 15px;
-    border: 2px solid black;
+  height: 110px;
 }
 
 footer
@@ -43,36 +39,44 @@ footer
   height: 50px;
 }
 
-
-header .row {
+header .container {
   border-bottom: 1px solid grey;
-  padding-bottom: 5px;
 }
 
 footer .container {
-  padding-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   line-height: 5px;
   text-align: center;
-  /*border-top: 1px solid grey;*/
-  border: 2px solid black;
-}
-
-section .row{
-  margin-bottom: 10px
-}
-
-#test{
-    background-color: black;
+  border-top: 1px solid grey;
+  font-family: TrueCrime, MyAmblePolice, Arial-Black, Impact;
 }
 
 #conversation {
   border: 1px solid grey;
-  height: 400px;
+  height: 300px;
   line-height: 40px;
+  margin-bottom: 15px; 
+  background-color: white; 
+  opacity: 0.8;
+  border-radius: 10px; 
+  color: grey;
 }
 
 #googlemap {
   border: 1px solid grey;
-  height: 400px;
+  height: 300px;
   line-height: 40px;
+  margin-bottom: 15px; 
+  border-radius: 10px; 
+}
+
+section {
+  background-image: url("/static/img/up.jpg");
+  background-size: 100%;
+  opacity: 0.5;
+}
+
+section .form-control{
+  margin-top: 15px; 
 }
