@@ -25,16 +25,28 @@ window.onload = function(){
     initMap();
 };
 
-
 //Get the input from the user
+/**
 function conversation(){
     var user_input = document.getElementById("user_input");
     var user_input_value = user_input.value;
-    $("#conversation ul").append('<li class="question"><div class="speech-bubble">' + user_input_value + '</div></li>');
+    $("#conversation").append('<div class="row"><div class="col-lg-1">' + $("#image_enfant").show() + '</div></div>');
+    $("#conversation").append('<div class="offset-lg-1 col-lg-9"><div class="answer">' + user_input_value + '</div></div>');
     user_input.value = "";
-    $("#attente").show();
     $("#conversation").scrollTop($('#conversation').prop("scrollHeight"));
+    };
+**/
+function pressEnter(event){
+    var code=event.which || event.keyCode;
+    var user_input_value = user_input.value;
+    if (code==13){
+    var user_input = document.getElementById("user_input").submit();
+    }
+    $("#img_papy").hide();
+};
 
+
+/**
     $.post('/grandpy', {
         user_raw_text: user_input_value,
 
@@ -64,4 +76,4 @@ function conversation(){
     }).fail(function() {
         $("#chat ul").append('<li class="answer"><div class="speech-bubble">Grandpybot est fatigué, il répondra à tes questions une autre fois.</div></li>');
     });
-}
+}**/
