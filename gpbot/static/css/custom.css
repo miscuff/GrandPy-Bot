@@ -57,10 +57,10 @@ footer .container {
   height: 300px;
   line-height: 40px;
   margin-bottom: 15px; 
-  background-color: white; 
-  opacity: 0.8;
+  background-color: white;
   border-radius: 10px; 
   color: grey;
+  overflow: hidden;
 }
 
 #googlemap {
@@ -74,7 +74,6 @@ footer .container {
 section {
   background-image: url("/static/img/up.jpg");
   background-size: 100%;
-  opacity: 0.5;
 }
 
 section .form-control{
@@ -83,23 +82,20 @@ section .form-control{
 
 #map {
     height: 300px;
-
 }
-
 
 #image_enfant {
     display: none;
 }
 
-
-#image_papy #image_enfant {
-    opacity: 1;
-}
-
 .answer {
-    line-height: -4px;
+    text-align: left;
+    height: 64px;
+    line-height: 80px;
+    font-family: MyAmblePolice, Arial-Black, Impact;
 }
 
-.conversation{
-    border: 1px solid grey;
+::placeholder {
+   font-style: italic;
+   font-size: small;
 }
