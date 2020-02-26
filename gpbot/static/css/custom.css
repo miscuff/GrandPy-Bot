@@ -84,9 +84,10 @@ section .form-control{
     height: 300px;
 }
 
+/**
 #image_enfant {
     display: none;
-}
+}**/
 
 .answer {
     text-align: left;
@@ -98,4 +99,9 @@ section .form-control{
 ::placeholder {
    font-style: italic;
    font-size: small;
+}
+
+.btn{
+    height: 38px;
+    margin-top: 15px;
 }
