@@ -41,4 +41,12 @@ $('#go_button').click(function(e) {
     $('#conversation').scrollTop($('#conversation').prop("scrollHeight"));
 });
 
-
+/**
+// init function for the google map api
+function initMap(lat, lng, mapId){
+    var location = {lat: lat, lng: lng};
+    var map = new google.maps.Map(
+        document.getElementById(mapId), {zoom: 10, center: location});
+    var marker = new google.maps.Marker({position: location, map: map});
+}
+*//

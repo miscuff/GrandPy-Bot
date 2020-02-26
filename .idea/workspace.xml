@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2984d1ce-83c2-453e-8145-14daa7f43ccc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gpbot/grandpy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gpbot/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gpbot/tests/test_googleapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gpbot/tests/test_mediawiki.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gpbot/tests/test_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gpbot/utils/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gpbot/utils/googleapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gpbot/utils/mediawiki.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gpbot/utils/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gpbot/utils/stopwords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gpbot/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/gpbot/static/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpbot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gpbot/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gpbot/static/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/gpbot/static/js/base.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gpbot/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/gpbot/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gpbot/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gpbot/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +63,34 @@
       <recent name="$PROJECT_DIR$/gpbot/templates" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="grandpy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GrandPy-Bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gpbot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gpbot/grandpy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.grandpy" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -79,6 +117,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1253" height="132" key="GridCell.Tab.0.bottom" timestamp="1582731204922">
+      <screen x="67" y="27" width="1293" height="741" />
+    </state>
+    <state width="1253" height="132" key="GridCell.Tab.0.bottom/67.27.1293.741@67.27.1293.741" timestamp="1582731204922" />
+    <state width="1253" height="132" key="GridCell.Tab.0.center" timestamp="1582731204921">
+      <screen x="67" y="27" width="1293" height="741" />
+    </state>
+    <state width="1253" height="132" key="GridCell.Tab.0.center/67.27.1293.741@67.27.1293.741" timestamp="1582731204921" />
+    <state width="1253" height="132" key="GridCell.Tab.0.left" timestamp="1582731204920">
+      <screen x="67" y="27" width="1293" height="741" />
+    </state>
+    <state width="1253" height="132" key="GridCell.Tab.0.left/67.27.1293.741@67.27.1293.741" timestamp="1582731204920" />
+    <state width="1253" height="132" key="GridCell.Tab.0.right" timestamp="1582731204921">
+      <screen x="67" y="27" width="1293" height="741" />
+    </state>
+    <state width="1253" height="132" key="GridCell.Tab.0.right/67.27.1293.741@67.27.1293.741" timestamp="1582731204921" />
     <state x="363" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1582640628568">
       <screen x="67" y="27" width="1293" height="741" />
     </state>
