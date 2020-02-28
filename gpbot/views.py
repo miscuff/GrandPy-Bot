@@ -13,7 +13,7 @@ def index():
 @app.route('/grandpy/', methods=['POST'])
 def grandpy():
     grandpy = Grandpy()
-    return jsonify({'answer': grandpy.grandpy_answer(request.form['user_question'])})
+    return jsonify({'answer': grandpy.grandpy_answer(request.form['input_value'])})
 
 
 if __name__ == "__main__":

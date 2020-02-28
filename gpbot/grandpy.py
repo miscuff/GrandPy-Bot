@@ -23,4 +23,3 @@ class Grandpy():
         answer = {}
         answer['location'] = geo_location
         return answer
-

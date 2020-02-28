@@ -40,16 +40,14 @@ $('#go_button').click(function(e) {
     $('#conversation').append('<div class="row"> <div class="col-lg-1"> <div id="image_enfant"> <img src="static/img/petit.png")> </div> </div> <div class="offset-lg-1 col-lg-9"> <div class="answer">' + input_value + '</div> </div> </div>');
     $('#conversation').scrollTop($('#conversation').prop("scrollHeight"));
 
-    $.post('/grandpy/', {
-        user_question: input_value,
-    }).done(function(response){
+    $.post("/grandpy/", { 'answer': input_value }).done(function(response){
         //$("#loading").hide();
             // Send address
            // $("#chat ul").append('<li class="answer"><div class="speech-bubble">' + response['answer']['address'] + '</div></li>');
             if(response['answer']['location'] !== ""){
                 // Initialize and display the map
                  lat = response['answer']['location']['lat'];
-                 lon = response['answer']['location']['lng'];
+                 lon = response['answer']['location']['lon'];
                  Map_user = new map(lat, lon);
                  window.onclick = function() {
                     Map_user.initMap();
