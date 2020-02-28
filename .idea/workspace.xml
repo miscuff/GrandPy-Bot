@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2984d1ce-83c2-453e-8145-14daa7f43ccc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gpbot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gpbot/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gpbot/grandpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/gpbot/grandpy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gpbot/static/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/gpbot/static/js/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gpbot/tests/test_googleapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/gpbot/tests/test_googleapi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gpbot/utils/googleapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/gpbot/utils/googleapi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gpbot/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gpbot/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,25 +171,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1253" height="131" key="GridCell.Tab.0.bottom" timestamp="1582885506359">
+    <state width="1253" height="131" key="GridCell.Tab.0.bottom" timestamp="1582895704164">
       <screen x="67" y="27" width="1293" height="741" />
     </state>
-    <state width="1253" height="131" key="GridCell.Tab.0.bottom/67.27.1293.741@67.27.1293.741" timestamp="1582885506359" />
+    <state width="1253" height="131" key="GridCell.Tab.0.bottom/67.27.1293.741@67.27.1293.741" timestamp="1582895704164" />
     <state width="1276" height="140" key="GridCell.Tab.0.bottom/67.27.1299.636@67.27.1299.636" timestamp="1582882393879" />
-    <state width="1253" height="131" key="GridCell.Tab.0.center" timestamp="1582885506357">
+    <state width="1253" height="131" key="GridCell.Tab.0.center" timestamp="1582895704162">
       <screen x="67" y="27" width="1293" height="741" />
     </state>
-    <state width="1253" height="131" key="GridCell.Tab.0.center/67.27.1293.741@67.27.1293.741" timestamp="1582885506357" />
+    <state width="1253" height="131" key="GridCell.Tab.0.center/67.27.1293.741@67.27.1293.741" timestamp="1582895704162" />
     <state width="1276" height="140" key="GridCell.Tab.0.center/67.27.1299.636@67.27.1299.636" timestamp="1582882393878" />
-    <state width="1253" height="131" key="GridCell.Tab.0.left" timestamp="1582885506356">
+    <state width="1253" height="131" key="GridCell.Tab.0.left" timestamp="1582895704161">
       <screen x="67" y="27" width="1293" height="741" />
     </state>
-    <state width="1253" height="131" key="GridCell.Tab.0.left/67.27.1293.741@67.27.1293.741" timestamp="1582885506356" />
+    <state width="1253" height="131" key="GridCell.Tab.0.left/67.27.1293.741@67.27.1293.741" timestamp="1582895704161" />
     <state width="1276" height="140" key="GridCell.Tab.0.left/67.27.1299.636@67.27.1299.636" timestamp="1582882393876" />
-    <state width="1253" height="131" key="GridCell.Tab.0.right" timestamp="1582885506358">
+    <state width="1253" height="131" key="GridCell.Tab.0.right" timestamp="1582895704163">
       <screen x="67" y="27" width="1293" height="741" />
     </state>
-    <state width="1253" height="131" key="GridCell.Tab.0.right/67.27.1293.741@67.27.1293.741" timestamp="1582885506358" />
+    <state width="1253" height="131" key="GridCell.Tab.0.right/67.27.1293.741@67.27.1293.741" timestamp="1582895704163" />
     <state width="1276" height="140" key="GridCell.Tab.0.right/67.27.1299.636@67.27.1299.636" timestamp="1582882393878" />
     <state width="1253" height="166" key="GridCell.Tab.1.bottom" timestamp="1582817427339">
       <screen x="67" y="27" width="1293" height="741" />

@@ -24,15 +24,14 @@ class GPMap{
     });
 }
 };
-/**
-let lat = 49.852969;
-let lon = 2.349903;
-GPMap = new GPMap(lat,lon);
 
-window.onload = function() {
+/**window.onload = function() {
+    let lat = 49.852969;
+    let lon = 2.349903;
+    GPMap = new GPMap(lat,lon);
     GPMap.initMap();
-};
-**/
+};**/
+
 
 $('#go_button').click(function(e) {
     e.preventDefault();
@@ -40,18 +39,17 @@ $('#go_button').click(function(e) {
     $('#conversation').append('<div class="row"> <div class="col-lg-1"> <div id="image_enfant"> <img src="static/img/petit.png")> </div> </div> <div class="offset-lg-1 col-lg-9"> <div class="answer">' + input_value + '</div> </div> </div>');
     $('#conversation').scrollTop($('#conversation').prop("scrollHeight"));
 
-    $.post("/grandpy/", { 'answer': input_value }).done(function(response){
+
+     $.post("/grandpy/", { answer: input_value }).done(function(response){
         //$("#loading").hide();
             // Send address
            // $("#chat ul").append('<li class="answer"><div class="speech-bubble">' + response['answer']['address'] + '</div></li>');
             if(response['answer']['location'] !== ""){
                 // Initialize and display the map
-                 lat = response['answer']['location']['lat'];
-                 lon = response['answer']['location']['lon'];
-                 Map_user = new map(lat, lon);
-                 window.onclick = function() {
-                    Map_user.initMap();
-                                            };
+                 let lat = response['answer']['location']['lat'];
+                 let lon = response['answer']['location']['lon'];
+                 Map_user = new GPMap(lat, lon);
+                 Map_user.initMap();
             };
     }).fail(function() {
         error_value = "Papy est fatigué, il te répondra plus tard";
