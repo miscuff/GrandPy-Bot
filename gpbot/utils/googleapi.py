@@ -18,7 +18,6 @@ class GoogleApi:
         }
 
         response = requests.get(GOOGLE_SEARCH_URL, params=parameters)
-
         if response.ok:
             response.encoding = 'UTF-8'
             data = response.json()
