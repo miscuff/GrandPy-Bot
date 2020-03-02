@@ -61,6 +61,7 @@ footer .container {
   border-radius: 10px; 
   color: grey;
   overflow: scroll;
+  grid-auto-rows: minmax(1px, auto);
 }
 
 #googlemap {
@@ -85,14 +86,9 @@ section .form-control{
     height: 300px;
 }
 
-/**
-#image_enfant {
-    display: none;
-}**/
-
 .answer {
     text-align: left;
-    height: 64px;
+    height: auto;
     margin-top: 20px;
     line-height: 1em;
     font-family: MyAmblePolice, Arial-Black, Impact;
@@ -107,4 +103,3 @@ section .form-control{
     height: 38px;
     margin-top: 15px;
 }
-
