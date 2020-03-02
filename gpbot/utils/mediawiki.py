@@ -29,7 +29,7 @@ class MediaWiki:
         if response.ok:
             response.encoding = 'UTF-8'
             data = response.json()
-            places = data['query'] and data['query']['pages']
+            places = next(iter(data['query']['pages']))
             try:
                 return places
             except (IndexError, KeyError):
@@ -37,5 +37,35 @@ class MediaWiki:
         else:
             raise NoResponseException
 
+    @staticmethod
+    def get_extract(page_id):
+        '''
+            Call MediaWikiApi and get an extract of the page corresponding
+            to the id
+        '''
+        get_extract_parameters = {
+            "action": "query",
+            "pageids": page_id,
+            "prop": "extracts",
+            "explaintext": "true",
+            "exsectionformat": "plain",
+            "exsentences": "3",
+            "format": "json"
+        }
+        response = requests.get(WIKI_SEARCH_URL, params=get_extract_parameters)
+        if response.ok:
+            response.encoding = "UTF-8"
+            data = response.json()
+            try:
+                extract = data["query"]["pages"][page_id]["extract"]
+            except KeyError:
+                raise ZeroResultsException
+            return extract
+        else:
+            raise NoResponseException
+
 test = MediaWiki()
-print(test.fetch_places_nearby("42", "-2"))
+reponse = test.fetch_places_nearby("48", "-2")
+print(reponse)
+id = test.get_extract(reponse)
+print(id)
