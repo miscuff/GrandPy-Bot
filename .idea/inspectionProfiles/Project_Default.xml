@@ -4,7 +4,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="39">
+          <list size="65">
             <item index="0" class="java.lang.String" itemvalue="Werkzeug" />
             <item index="1" class="java.lang.String" itemvalue="Click" />
             <item index="2" class="java.lang.String" itemvalue="MarkupSafe" />
@@ -44,6 +44,32 @@
             <item index="36" class="java.lang.String" itemvalue="isort" />
             <item index="37" class="java.lang.String" itemvalue="pytz" />
             <item index="38" class="java.lang.String" itemvalue="idna" />
+            <item index="39" class="java.lang.String" itemvalue="defer" />
+            <item index="40" class="java.lang.String" itemvalue="netifaces" />
+            <item index="41" class="java.lang.String" itemvalue="Brlapi" />
+            <item index="42" class="java.lang.String" itemvalue="ufw" />
+            <item index="43" class="java.lang.String" itemvalue="pycups" />
+            <item index="44" class="java.lang.String" itemvalue="pycairo" />
+            <item index="45" class="java.lang.String" itemvalue="apturl" />
+            <item index="46" class="java.lang.String" itemvalue="pycrypto" />
+            <item index="47" class="java.lang.String" itemvalue="distro-info" />
+            <item index="48" class="java.lang.String" itemvalue="cupshelpers" />
+            <item index="49" class="java.lang.String" itemvalue="systemd-python" />
+            <item index="50" class="java.lang.String" itemvalue="PyNaCl" />
+            <item index="51" class="java.lang.String" itemvalue="louis" />
+            <item index="52" class="java.lang.String" itemvalue="language-selector" />
+            <item index="53" class="java.lang.String" itemvalue="unattended-upgrades" />
+            <item index="54" class="java.lang.String" itemvalue="ubuntu-drivers-common" />
+            <item index="55" class="java.lang.String" itemvalue="system-service" />
+            <item index="56" class="java.lang.String" itemvalue="xkit" />
+            <item index="57" class="java.lang.String" itemvalue="cryptography" />
+            <item index="58" class="java.lang.String" itemvalue="reportlab" />
+            <item index="59" class="java.lang.String" itemvalue="python-apt" />
+            <item index="60" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="61" class="java.lang.String" itemvalue="usb-creator" />
+            <item index="62" class="java.lang.String" itemvalue="command-not-found" />
+            <item index="63" class="java.lang.String" itemvalue="pygobject" />
+            <item index="64" class="java.lang.String" itemvalue="Pillow" />
           </list>
         </value>
       </option>

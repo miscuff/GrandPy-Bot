@@ -1,8 +1,8 @@
-from flask import Flask, render_template, url_for, request, jsonify
+from flask import Flask, render_template, jsonify, request
 from .grandpy import Grandpy
 
 app = Flask(__name__)
-
+app.config.from_object('config')
 
 @app.route('/')
 @app.route('/index/')
@@ -13,7 +13,7 @@ def index():
 @app.route('/grandpy/', methods=['POST'])
 def grandpy():
     grandpy = Grandpy()
-    return jsonify({'answer': grandpy.grandpy_answer(request.form)})
+    return jsonify({'answer': grandpy.grandpy_answer(request.form['user_text'])})
 
 
 if __name__ == "__main__":
