@@ -25,12 +25,12 @@ class GPMap{
 }
 };
 
-/**window.onload = function() {
+window.onload = function() {
     let lat = 49.852969;
     let lon = 2.349903;
     GPMap = new GPMap(lat,lon);
     GPMap.initMap();
-};**/
+};
 
 
 $('#go_button').click(function(e) {
@@ -47,7 +47,7 @@ $('#go_button').click(function(e) {
             if(response['answer']['location'] !== ""){
                 // Initialize and display the map
                  let lat = response['answer']['location']['lat'];
-                 let lon = response['answer']['location']['lon'];
+                 let lon = response['answer']['location']['lng'];
                  Map_user = new GPMap(lat, lon);
                  Map_user.initMap();
             };
