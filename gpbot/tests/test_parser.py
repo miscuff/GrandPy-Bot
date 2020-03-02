@@ -16,5 +16,4 @@ class TestParser:
         sentence_with_keywords = self.test_parser.get_keywords(self.sentence)
         assert sentence_with_keywords == ['voudrais', 'aller', 'Paris']
 
-2
 

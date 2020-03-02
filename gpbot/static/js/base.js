@@ -1,6 +1,3 @@
-let lat = 53.132330;
-let lng = 23.159630;
-
 function initMap(){
     map = new google.maps.Map(document.getElementById("map"), {
     center: new google.maps.LatLng(lat, lng),
