@@ -1,5 +1,7 @@
-env/
 *.pyc
 __pycache__
 app.db
 .cache/
+venv/
+app.db
+geckodriver.log
