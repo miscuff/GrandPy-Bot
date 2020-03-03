@@ -1,2 +1,1 @@
-web: gunicorn fbapp:app
-init: FLASK_APP=run.py
+web: gunicorn gpbot:app
