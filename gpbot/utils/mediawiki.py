@@ -8,10 +8,10 @@ class MediaWiki:
 
     @staticmethod
     def fetch_places_nearby(lat, lon):
-        '''
+        """
             Call media wiki  api with lat and lon and
             returns the page id
-        '''
+        """
 
         parameters = {
             "action": "query",
@@ -39,10 +39,10 @@ class MediaWiki:
 
     @staticmethod
     def get_extract(page_id):
-        '''
+        """
             Call MediaWikiApi and get an extract of the page corresponding
             to the id
-        '''
+        """
         get_extract_parameters = {
             "action": "query",
             "pageids": page_id,

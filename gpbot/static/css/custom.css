@@ -36,7 +36,7 @@ header
 
 footer
 {
-  height: 50px;
+  height: 5px;
 }
 
 header .container {
@@ -71,6 +71,7 @@ footer .container {
   margin-bottom: 15px; 
   border-radius: 10px;
   display: none;
+  visibility: hidden;
 }
 
 section {
@@ -103,3 +104,4 @@ section .form-control{
     height: 38px;
     margin-top: 15px;
 }
+
