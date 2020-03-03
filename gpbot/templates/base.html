@@ -63,5 +63,5 @@
     </body>
 
     <script type="text/javascript" src="{{ url_for('static', filename='js/base.js') }}"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj4HRPq7T3yGCakocZC6JuVsL21TZX_gQ&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ config['GOOGLE_API_KEY'] }}&callback=initMap"></script>
 </html>
