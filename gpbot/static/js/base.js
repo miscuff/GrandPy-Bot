@@ -22,7 +22,7 @@ $('#go_button').click(function(e) {
     e.preventDefault();
     let input_value = $('#input_user').val();
     $('#conversation').append('<div class="row"> <div class="col-lg-1"> <div id="image_enfant"> <img src="static/img/petit.png")> </div> </div> <div class="offset-lg-1 col-lg-9"> <div class="answer">' + input_value + '</div> </div> </div>');
-    $('#googlemap').show()
+    $('#googlemap').css('visibility', 'visible');
      $.post("/grandpy/", { user_text: input_value }).done(function(response){
             if(response['answer']['location'] !== ""){
                 // Initialize and display the map
