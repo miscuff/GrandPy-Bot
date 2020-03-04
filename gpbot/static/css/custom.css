@@ -15,15 +15,15 @@
 
 h1
 {
-    padding-top: 15px; 
-    font-size: xx-large;
+    padding-top: 15px;
+    font-size: 3vw;
      color: black;
      font-family: TrueCrime, MyAmblePolice, Arial-Black, Impact;
 }
 
 h2
 {
-    font-size: x-large;
+    font-size: 2vw;
     color: black;
     font-family: TrueCrime, MyAmblePolice, Arial-Black, Impact;
     text-decoration: none;
@@ -36,7 +36,7 @@ header
 
 footer
 {
-  height: 25px;
+  height: 40px;
 }
 
 header .container {

@@ -20,6 +20,7 @@ class TestGoogleApi:
 
         # apply the monkeypatch for requests.get to mock_get
         monkeypatch.setattr(urllib.request, 'urlopen', mockreturn)
+
         adress = self.test_google_api.search(self.keywords)
 
         assert adress['geometry']['location'] == results
