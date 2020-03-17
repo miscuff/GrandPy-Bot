@@ -3,7 +3,6 @@ from gpbot import MediaWiki
 
 from io import BytesIO
 import json
-import pytest
 
 
 class TestGoogleApi:
@@ -15,6 +14,10 @@ class TestGoogleApi:
         self.id = '49947'
 
     def test_http_return(self, monkeypatch):
+        """
+        :param monkeypatch:
+        :return: Check that the pageId is correct
+        """
         results = {self.id: [
                            {"pageid": 49947}
                         ]
