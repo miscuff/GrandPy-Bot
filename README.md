@@ -14,6 +14,26 @@ with Google map.
 * pytest : Python framework to make unit test
 * heroku : Cloud platform as a service supporting the application
 
-### How to install requirements
-In terminal:
-    pip3 install -r requirements.txt
+## How to setup the project
+* Clone the repository 
+* Install virtual environment
+
+        pip3 install virtualenv
+        virutalenv venv
+        source venv/bin/activate
+* Install requirements
+
+        pip3 install -r requirements.txt
+
+* Get Google map key
+    
+    Get an API key following this link : [key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+    Put the key in the file config.py
+* Run the project
+    
+    Create an account on heroku following this link : [heroku](https://id.heroku.com/login)
+    
+    Deploy the application online :
+        
+        git push heroku master
+        heroku ps:scale web=1
