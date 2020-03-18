@@ -27,13 +27,14 @@ with Google map.
 
 * Get Google map key
     
-    Get an API key following this link : [key](https://developers.google.com/maps/documentation/javascript/get-api-key)
-    Put the key in the file config.py
+    - Get an API key following this link : [key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+    
+    - Put the key in the file config.py
 * Run the project
     
-    Create an account on heroku following this link : [heroku](https://id.heroku.com/login)
+    - Create an account on heroku following this link : [heroku](https://id.heroku.com/login)
     
-    Deploy the application online :
+    - Deploy the application online :
         
-        git push heroku master
-        heroku ps:scale web=1
+            git push heroku master
+            heroku ps:scale web=1
