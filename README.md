@@ -16,7 +16,7 @@ Link : https://carl-grandpybot.herokuapp.com/
 * pytest : Python framework to make unit test
 * heroku : Cloud platform as a service supporting the application
 
-## How to setup the project
+## How to setup the project 
 * Clone the repository 
 * Install virtual environment
 
@@ -31,7 +31,7 @@ Link : https://carl-grandpybot.herokuapp.com/
     
     - Get an API key following this link : [key](https://developers.google.com/maps/documentation/javascript/get-api-key)
     
-* Run the project
+* Run the project in Production
     
     - Create an account on heroku following this link : [heroku](https://id.heroku.com/login)
     
@@ -44,12 +44,16 @@ Link : https://carl-grandpybot.herokuapp.com/
             git push heroku master
             heroku ps:scale web=1
 
-## How to test the project with Pytest
+* Run the project in Development
 
-Before using pytest, you need to set the variable GOOGLE_API_KEY with your Key
-            
-    GOOGLE_API_KEY = "your api key"
+    - Set in file config.py the GOOGLE_API_KEY
+
+            GOOGLE_API_KEY = "your api key"
     
-Then you can launch pytest
+    - Run the program in local
+    
+            python3 run.py
+            
+    - Launch tests
 
-    pytest
+            pytest
