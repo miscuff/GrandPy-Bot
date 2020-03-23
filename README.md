@@ -43,3 +43,13 @@ Link : https://carl-grandpybot.herokuapp.com/
         
             git push heroku master
             heroku ps:scale web=1
+
+## How to test the project with Pytest
+
+Before using pytest, you need to set the variable GOOGLE_API_KEY with your Key
+            
+    GOOGLE_API_KEY = "your api key"
+    
+Then you can launch pytest
+
+    pytest

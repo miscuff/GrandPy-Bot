@@ -11,13 +11,6 @@ class TestGoogleApi:
         self.test_google_api = GoogleApi()
         self.keywords = ["Paris", "france"]
 
-    def response(self):
-        """
-        :return: Location for Paris
-        """
-        response_google = self.test_google_api.search(self.keywords)
-        return response_google['geometry']['location']
-
     def test_http_return(self, monkeypatch):
         """
         :param monkeypatch:
@@ -31,4 +24,6 @@ class TestGoogleApi:
         # apply the monkeypatch for requests.get to mock_get
         monkeypatch.setattr(urllib.request, 'urlopen', mockreturn)
 
-        assert self.response() == results
+        response = self.test_google_api.search(self.keywords)
+
+        assert response['geometry']['location'] == results
