@@ -23,24 +23,15 @@ h1
 
 h2
 {
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: black;
     font-family: TrueCrime, MyAmblePolice, Arial-Black, Impact;
     text-decoration: none;
 }
 
-header 
-{
-  height: 110px;
-}
-
 footer
 {
   height: 40px;
-}
-
-header .container {
-  border-bottom: 1px solid grey;
 }
 
 footer .container {
