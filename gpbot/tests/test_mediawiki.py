@@ -17,7 +17,7 @@ class TestGoogleApi:
         :param monkeypatch:
         :return: Check that the pageId is correct
         """
-        results = 49947
+        results = '49947'
 
         def mockreturn(request):
             return BytesIO(json.dumps(results).encode())
@@ -26,7 +26,6 @@ class TestGoogleApi:
         monkeypatch.setattr(urllib.request, 'urlopen', mockreturn)
 
         page = self.test_media_wiki.fetch_places_nearby(self.lat, self.lng)
-        id = next(iter(page))
-        page_id = page[id]['pageid']
+        page_id = next(iter(page))
 
         assert page_id == results

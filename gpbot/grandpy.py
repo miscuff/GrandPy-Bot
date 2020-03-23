@@ -53,8 +53,7 @@ class Grandpy():
         lat = location["lat"]
         lng = location["lng"]
         page = self.media_wiki.fetch_places_nearby(lat, lng)
-        id = next(iter(page))
-        page_id = page[id]['pageid']
+        page_id = next(iter(page))
         return page_id
 
     def _url_media_wiki(self, location, page_id):
