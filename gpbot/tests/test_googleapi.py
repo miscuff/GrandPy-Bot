@@ -1,8 +1,9 @@
+import json
 import urllib.request
-from gpbot import GoogleApi
 
 from io import BytesIO
-import json
+
+from gpbot import GoogleApi
 
 
 class TestGoogleApi:

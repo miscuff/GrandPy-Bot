@@ -1,8 +1,9 @@
 import urllib.request
-from gpbot import MediaWiki
+import json
 
 from io import BytesIO
-import json
+
+from gpbot import MediaWiki
 
 
 class TestGoogleApi:
